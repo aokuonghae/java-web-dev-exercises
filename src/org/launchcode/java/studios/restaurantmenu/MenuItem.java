@@ -1,8 +1,5 @@
 package org.launchcode.java.studios.restaurantmenu;
 
-
-import java.util.Date;
-
 public class MenuItem {
     private double price;
     private String description;
@@ -19,4 +16,14 @@ public class MenuItem {
     public String getPrice(){
         return "$"+ this.price;
     }
+    public String getDescription(){
+        return this.description;
+    }
+    public String getCategory(){
+        return this.category;
+    }
+    public Boolean getIsNew(){
+        return this.isNew;
+    }
+
 }

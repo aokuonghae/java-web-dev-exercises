@@ -19,4 +19,8 @@ public class SchoolPractice {
         }
 
     }
+
+    public class Course {
+
+    }
 }
